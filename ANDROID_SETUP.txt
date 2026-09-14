@@ -1,0 +1,9 @@
+Project ini adalah source Flutter. Folder android/ dibuat otomatis oleh Flutter:
+flutter create .
+
+Setelah itu replace lib/ dan pubspec.yaml dari paket ini, lalu:
+flutter pub get
+flutter run
+
+APK:
+flutter build apk --release

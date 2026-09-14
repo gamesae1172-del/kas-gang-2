@@ -1,0 +1,32 @@
+PANDUAN SINGKAT GITHUB - KAS WARGA RT
+
+A. Buat repository
+- Login GitHub.
+- New repository.
+- Nama: kas-warga-rt
+- Pilih Private jika aplikasi/data internal RT.
+- Create repository.
+
+B. Upload project
+- Upload seluruh isi folder project ini.
+- JANGAN upload folder pembungkus KasWargaFlutter_GitHub; upload isi di dalamnya.
+- Pastikan pubspec.yaml berada di root repository.
+- Pastikan .github/workflows/build-apk.yml ada.
+
+C. Build APK
+- Masuk tab Actions.
+- Pilih "Build Kas Warga RT APK".
+- Klik "Run workflow".
+- Tunggu sampai selesai.
+
+D. Ambil APK
+- Buka run yang statusnya hijau.
+- Scroll ke Artifacts.
+- Download "KasWargaRT-APK".
+- Ekstrak ZIP.
+- File KasWargaRT.apk siap dipindahkan ke Android.
+
+Catatan:
+- Tidak perlu Play Store.
+- Build dilakukan oleh GitHub Actions.
+- Source aplikasi tetap berada di repository Anda.
